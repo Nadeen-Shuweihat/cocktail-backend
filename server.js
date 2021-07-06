@@ -25,10 +25,10 @@ const deleteFavDataHandler = require('./modules/deleteFavDataHandler');
 
 server.delete('/deleteFavData', deleteFavDataHandler);
 
+server.post('/addFav', addFavHandler);
 
 server.get('/getFavData', getFavDataHandler);
 
-server.post('/addFav', addFavHandler);
 
 server.get('/allData', getAllDataHandler);
 
